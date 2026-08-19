@@ -8,10 +8,6 @@ const orderSchema = new Schema({
         unique: true,
         trim: true
     },
-    orderCode: {
-        type: String,
-        trim: true
-    },
     userName: {
         type: String,
         required: true,
